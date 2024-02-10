@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Profile Login</title>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Jayden Hutchinson"/>
+  </head>
+  <body>
+    <form action="Table.html">
+      <fieldset>
+        <legend>User Profile</legend>
+          <figure>
+            <img alt="School Name" src="https://dummyimage.com/800x100/002f87/ffffff&text=BCIT">
+          </figure><br/><br/>
+            <label>Name: </label><input type="text" id="name" name="name" placeholder="Name" autofocus="autofocus" pattern="[A-Za-z]{8,20}" required="required"/><br/><br/>
+            <label>Email: </label><input type="email" id="email" name="email" placeholder="Email" required="required"/><br/><br/>
+            <label>Password: </label><input type="password" id="pwd" name="pwd" placeholder="Password" pattern="[A-Za-z0-9]{10,20}" required="required"/><br/><br/>
+            <label>Age: </label><input min="18" step="2" max="65" type="number" id="number" name="number" placeholder="Age"/><br/><br/>
+            <input type="submit" id="submit" name="submit" value="Submit"/>&nbsp;
+            <input type="reset" id="reset" name="reset" value="Reset"/>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+

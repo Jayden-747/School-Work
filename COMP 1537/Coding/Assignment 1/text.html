@@ -1,0 +1,42 @@
+
+<html>
+  <head>
+  </head>
+  <body>
+    <form action="/submit">
+      <fieldset>
+        <legend><h2>User Profile</h2></legend>
+        <img alt="School Name" src="https://dummyimage.com/800x100/002f87/ffffff&text=BCIT"><br/><br/>
+        <input type="text" id="name" name="name" placeholder="Name" autofocus="autofocus" pattern="[A-Za-z]{8,20}" required="required"/>&nbsp;
+        <input type="email" id="email" name="email" placeholder="Email" required="required"/>&nbsp;
+        <input type="password" id="pwd" name="pwd" placeholder="Password" pattern="[A-Za-z0-9]{10,20}" required="required"/>&nbsp;
+        <label>Age: </label><input min="18" step="2" max="65" type="number" id="number" name="number" placeholder="Age"/><br/><br/>
+        <input type="submit" id="submit" name="submit" value="Submit"/>&nbsp;
+        <input type="reset" id="reset" name="reset" value="Reset"/>
+      </fieldset>
+    </form>
+    <table border="1">
+      <tr>
+        <th>Course Name</th>
+        <th>Number</th>
+        <th>Credits</th>
+      </tr>
+      <tr>
+        <td>Web Development 1</td>
+        <td>COMP-1537</td>
+        <td>4</td>
+      <tr>
+        <td>Bis Analysis and System Design</td>
+        <td>COMP-1712</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Applied Mathematics</td>
+        <td>COMP-1113</td>
+        <td>4</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+

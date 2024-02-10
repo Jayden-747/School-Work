@@ -1,0 +1,47 @@
+COMP 1537 – Assignment 2
+
+Due: Following week (week of January 22nd), before the beginning of your scheduled lab class, for marks! This assignment is out of 10.
+To be done individually
+
+Objective
+It’s finally time to start styling our documents. Until now we’ve only been paying attention to the structure via HTML elements.
+For this assignment, create the following HTML structure:
+* In your body, create the following:
+o A header, a footer, and a div that contains an id (with a value of ‘content’)
+* Inside of the ‘div’ place at least one of each:
+* An unordered list
+* An order list
+* A table, where the table has:
+o Three table rows and three columns
+o A table header (i.e., ‘th’ inside of ‘tr’)
+* An image (use dummy image for your image)
+* Paragraph with a span, b, i, and abbr
+
+Place actual content inside of each of your elements (e.g., portfolio, news feed info, a project idea, etc.) and style using the following requirements:
+* Use each of the different CSS selectors at least once that we’ve covered, so:
+o Element selectors
+o Id selectors
+o Class selectors
+o Universal selectors
+o Combinatory (any one of the ones we covered)
+o Attribute (any one of the ones we covered)
+o Pseudo selectors for your hyperlinks and your table rendering (e.g., nth row)
+
+Use the following link to decide upon what types of CSS properties that you wish to change:
+* http://www.w3schools.com/cssref/
+We will get more specific with the types of things that we’re going to make changes to (e.g., borders, image filters, etc.). For now though, feel free to experiment and try styling various things (e.g., background colors, font sizes, padding, margins, etc.)
+For now, it’s fine to put your CSS code inside of the style element inside of your HTML document. If you’d like, you can have it as an external CSS file as that will be what we do once the assignments are bigger and require more detail.
+Once you have completed, ensure that your document is valid. It is suggested that you use Visual Studio Code extension, “HTML CSS Support” CSS syntax errors. You code (HTML, CSS, JavaScript) must all be free of all syntax errors regardless of what validation tools you use (online, editor plugins, reading manually, etc.).
+Your files must be in text form. This is mostly for Mac users who may decide to use TextEdit – don’t use it! It saves files in a binary format that cannot be read outside of the Mac platform.
+As well, include a readme.txt file that follows this format:
+
+Note: you must also run your HTML code through a validator. The validator you must adhere to this term is found at the following web site:
+https://en.rakko.tools/tools/58/ 
+If you fail to validate your HTML in your assignments, you run the risk of losing marks for your assignment submissions.
+
+Submission
+Create a zip archive of any and all text files that are part of your assignment submission. Your HTML files will have the extension “.html”, your CSS files will have the extension “.css”, and your JavaScript files will have the extension “.js”. If you have images, be sure to include them in this archive that you create.
+Once you create your zip archive file, rename it to follow the format SurnameFirstnameCOMP1537Assignment2. My zip file would be FergusonArronCOMP1537Assignment2, for instance.
+Finally, submit it to the learning hub in the folder labeled “assignment 2”.
+
+
