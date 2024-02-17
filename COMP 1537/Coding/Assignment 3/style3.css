@@ -1,6 +1,6 @@
 /* DESKTOP */
 @media only screen and (min-width : 1281px) {
-    
+
   body {
     margin: 0%;
     padding: 0%;
@@ -226,7 +226,7 @@
   
   @font-face {
     font-family: customFont;
-    src: url(/Font/ConcertOne-Regular.ttf);
+    src: url(Font/ConcertOne-Regular.ttf);
   }
   .title_text {
     color: hsl(38, 100%, 65%);
@@ -561,6 +561,15 @@
     text-align: right;
   }
 
+  @font-face {
+    font-family: customFont;
+    src: url(Font/ConcertOne-Regular.ttf);
+  }
+  .title_text {
+    color: hsl(38, 100%, 65%);
+    font-family: customFont;
+  }
+
   .main_button_layout:hover {
     background-color: rgba(255, 190, 77, 0.5);
   }
@@ -805,6 +814,15 @@
     border-top: solid;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  @font-face {
+    font-family: customFont;
+    src: url(Font/ConcertOne-Regular.ttf);
+  }
+  .title_text {
+    color: hsl(38, 100%, 65%);
+    font-family: customFont;
   }
 
   #contact {

@@ -1,0 +1,146 @@
+/* MAIN LAYOUT */
+@media only screen and (min-width : 1000px) {
+
+  /* BASICS */
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(31, 33, 33);
+    color: white;
+    font-family: sans-serif;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto 1000px auto;
+    grid-template-rows: auto;
+  }
+
+  .container {
+    background-image: url(/images/hero-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1800px;
+  }
+
+  /*________ NAVBAR CONTENT ________ */
+  .navbar {
+    border-bottom: solid rgba(231, 169, 35, 0.441);
+    width: 100%;
+    height: 75px;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgba(0, 0, 0, 0.349);
+    backdrop-filter: blur(5px);
+  }
+
+  .navbar-container {
+    border-color: solid rgb(147, 147, 147);
+    grid-column: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-link-section {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    padding-right: 16px;
+  }
+
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+
+  /*________ HERO CONTENT________*/
+  .hero {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    height: 500px;
+  }
+
+  .hero-container {
+    grid-column: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-search {
+    background-color: rgba(0, 0, 0, 0.349);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 75px;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .fa-magnifying-glass {
+    color: rgb(199, 153, 52);
+  }
+
+  .search-input {
+    font-size: medium;
+    width: 700px;
+    height: 25px;
+    border-radius: 4px;
+  }
+
+  .enter {
+    background-color: rgb(199, 153, 52);
+    height: 30px;
+    width: 175px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .card-icon {
+    color: rgb(199, 153, 52);
+  }
+
+  .hero-cards-layout {
+    background-color: rgba(0, 0, 0, 0.349);
+    backdrop-filter: blur(5px);
+    height: 100px;
+    width: 225px;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .body {
+    background-color: rgb(50, 50, 50);
+    height: 100vh;
+  }
+
+}
