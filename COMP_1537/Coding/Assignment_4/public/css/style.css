@@ -150,13 +150,20 @@
     justify-content: space-between;
   }
 
-  .hero-cards-layout:hover {
-    border: 1px solid rgba(231, 169, 35, 0.441);
-    box-sizing: border-box;
+  .hero-cards-layout {
+    background-color: rgba(0, 0, 0, 0.349);
+    backdrop-filter: blur(5px);
+    height: 100px;
+    width: 225px;
+    border-radius: 4px;
+
+    display: flex;
   }
 
   .card-icon {
     color: rgb(199, 153, 52);
+    padding-top: 25px;
+    padding-left: 10px;
   }
 
   .play {
@@ -171,16 +178,27 @@
     color: #66c0f4;
   }
 
-  .hero-cards-layout {
-    background-color: rgba(0, 0, 0, 0.349);
-    backdrop-filter: blur(5px);
-    height: 100px;
-    width: 225px;
-    border-radius: 4px;
-
+  .card-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .card-subtext {
+    font-size: small;
+  }
+
+  .learn-more {
+    font-size: small;
+    color: rgb(199, 153, 52);
+    text-decoration: none;
+  }
+
+  .learn-more:hover {
+    text-decoration: underline;
+
   }
 
   /*________ BODY CONTENT________*/
