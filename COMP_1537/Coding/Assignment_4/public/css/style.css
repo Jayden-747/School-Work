@@ -198,7 +198,6 @@
 
   .learn-more:hover {
     text-decoration: underline;
-
   }
 
   /*________ BODY CONTENT________*/
@@ -582,6 +581,14 @@
 
   #article8 {
     background-image: url(/public/img/resident-evil-4.jpg);
+  }
+
+  #article9 {
+    background-image: url(/public/img/black-ops-3.jpg);
+  }
+
+  #article10 {
+    background-image: url(/public/img/kingdom-hearts.jpg);
   }
 
   .footer {
