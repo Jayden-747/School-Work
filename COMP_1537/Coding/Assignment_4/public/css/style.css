@@ -160,6 +160,11 @@
     display: flex;
   }
 
+  .hero-cards-layout:hover {
+    border: 1px solid rgba(231, 169, 35, 0.441);
+    box-sizing: border-box;
+  }
+
   .card-icon {
     color: rgb(199, 153, 52);
     padding-top: 25px;
@@ -218,6 +223,7 @@
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .article-layout {
@@ -230,6 +236,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
   }
 
   .article-image {
@@ -301,6 +312,14 @@
 
   #article8 {
     background-image: url(/public/img/resident-evil-4.jpg);
+  }
+
+  #article9 {
+    background-image: url(/public/img/black-ops-3.jpg);
+  }
+
+  #article10 {
+    background-image: url(/public/img/kingdom-hearts.jpg);
   }
 
   .footer {
@@ -446,17 +465,18 @@
     color: #66c0f4;
   }
 
-  .hero-cards-layout {
-    background-color: rgba(0, 0, 0, 0.349);
-    backdrop-filter: blur(5px);
-    height: 40px;
-    width: 75%;
-    border-radius: 4px;
-    margin-bottom: 5px;
-
+  .card-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .learn-more {
+    font-size: small;
+    color: rgb(199, 153, 52);
+    text-decoration: none;
   }
 
   @media only screen and (max-width: 999px) and (min-width: 425px) {
@@ -470,7 +490,7 @@
     .hero-cards-layout {
       background-color: rgba(0, 0, 0, 0.349);
       backdrop-filter: blur(5px);
-      height: 40px;
+      height: 50px;
       width: 310px;
       border-radius: 4px;
       margin-bottom: 5px;
@@ -478,7 +498,26 @@
 
       display: flex;
       align-items: center;
-      justify-content: center;
+    }
+
+    .card-icon {
+      margin-left: 70px;
+    }
+
+    .card-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: left;
+      padding-left: 15px;
+    }
+
+    .card-subtext {
+      font-size: smaller;
+    }
+
+    .learn-more {
+      font-size: smaller;
     }
   }
 
@@ -514,6 +553,11 @@
     justify-content: space-between;
   }
 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
   .article-image {
     border-radius: 4px;
     width: 100px;
@@ -531,6 +575,7 @@
 
   .article-text {
     display: flex;
+    margin-bottom: 20px;
   }
 
   .more {
