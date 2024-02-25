@@ -23,9 +23,10 @@ app.get("/", function (req, res) {
   res.send(doc);
 });
 
-app.get("/json", function (req, res) {
-  const jsonData = { key: "value" };
-  res.json(jsonData);
+app.get("/article-lists", function (req, res) {
+  const doc = fs.readFileSync("./app/html/data/article-lists.html", "utf8");
+
+  res.send(doc);
 });
 
 app.listen(port, () => {
