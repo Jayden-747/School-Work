@@ -558,6 +558,10 @@
     padding: 0;
   }
 
+  ::marker {
+    display: none;
+  }
+
   .article-image {
     border-radius: 4px;
     width: 100px;

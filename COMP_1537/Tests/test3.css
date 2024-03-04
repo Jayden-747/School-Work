@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+#container {
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+}
+
+#middle {
+  background-color: aquamarine;
+  width: 50%;
+  height: 50%;
+}
+
