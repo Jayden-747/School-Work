@@ -16,7 +16,7 @@
   }
 
   .container {
-    background-image: url(/public/img/hero-background.jpeg);
+    background-image: url(/img/hero-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1500px;
@@ -214,8 +214,20 @@
   /*________ ARTICLES ________*/
   .body-title {
     color: rgb(199, 153, 52);
-    text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .load {
+    background-color: rgb(199, 153, 52);
+    color: black;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: bold;
+    text-decoration: none;
   }
 
   .articles {
@@ -281,45 +293,45 @@
   }
 
   #article1 {
-    background-image: url(/public/img/god-of-war.jpg);
+    background-image: url(/img/god-of-war.jpg);
   }
 
   #article2 {
-    background-image: url(/public/img/the-last-of-us.jpg);
+    background-image: url(/img/the-last-of-us.jpg);
     background-position: left;
   }
 
   #article3 {
-    background-image: url(/public/img/hades.jpg);
+    background-image: url(/img/hades.jpg);
   }
 
   #article4 {
-    background-image: url(/public/img/death-stranding.jpg);
+    background-image: url(/img/death-stranding.jpg);
   }
 
   #article5 {
-    background-image: url(/public/img/lies-of-p.jpg);
+    background-image: url(/img/lies-of-p.jpg);
   }
 
   #article6 {
-    background-image: url(/public/img/uncharted-3.jpg);
+    background-image: url(/img/uncharted-3.jpg);
     background-position: top;
   }
 
   #article7 {
-    background-image: url(/public/img/red-dead-redemption-2.jpg);
+    background-image: url(/img/red-dead-redemption-2.jpg);
   }
 
   #article8 {
-    background-image: url(/public/img/resident-evil-4.jpg);
+    background-image: url(/img/resident-evil-4.jpg);
   }
 
   #article9 {
-    background-image: url(/public/img/black-ops-3.jpg);
+    background-image: url(/img/black-ops-3.jpg);
   }
 
   #article10 {
-    background-image: url(/public/img/kingdom-hearts.jpg);
+    background-image: url(/img/kingdom-hearts.jpg);
   }
 
   .footer {
@@ -348,7 +360,7 @@
   }
 
   .container {
-    background-image: url(/public/img/hero-background.jpeg);
+    background-image: url(/img/hero-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -532,6 +544,18 @@
     color: rgb(199, 153, 52);
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .load {
+    background-color: rgb(199, 153, 52);
+    color: black;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: bold;
   }
 
   .articles {
@@ -599,45 +623,45 @@
   }
 
   #article1 {
-    background-image: url(/public/img/god-of-war.jpg);
+    background-image: url(/img/god-of-war.jpg);
   }
 
   #article2 {
-    background-image: url(/public/img/the-last-of-us.jpg);
+    background-image: url(/img/the-last-of-us.jpg);
     background-position: left;
   }
 
   #article3 {
-    background-image: url(/public/img/hades.jpg);
+    background-image: url(/img/hades.jpg);
   }
 
   #article4 {
-    background-image: url(/public/img/death-stranding.jpg);
+    background-image: url(/img/death-stranding.jpg);
   }
 
   #article5 {
-    background-image: url(/public/img/lies-of-p.jpg);
+    background-image: url(/img/lies-of-p.jpg);
   }
 
   #article6 {
-    background-image: url(/public/img/uncharted-3.jpg);
+    background-image: url(/img/uncharted-3.jpg);
     background-position: top;
   }
 
   #article7 {
-    background-image: url(/public/img/red-dead-redemption-2.jpg);
+    background-image: url(/img/red-dead-redemption-2.jpg);
   }
 
   #article8 {
-    background-image: url(/public/img/resident-evil-4.jpg);
+    background-image: url(/img/resident-evil-4.jpg);
   }
 
   #article9 {
-    background-image: url(/public/img/black-ops-3.jpg);
+    background-image: url(/img/black-ops-3.jpg);
   }
 
   #article10 {
-    background-image: url(/public/img/kingdom-hearts.jpg);
+    background-image: url(/img/kingdom-hearts.jpg);
   }
 
   .footer {

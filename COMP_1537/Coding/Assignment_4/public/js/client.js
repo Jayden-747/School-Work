@@ -53,7 +53,7 @@ function loadHades() {
 
 function loadDeathStranding() {
   ajaxGET("article-lists", function (data) {
-    data = parser 
+    data = parser
       .parseFromString(data, "text/html")
       .querySelector("div#death-stranding").innerHTML;
     document.getElementById("ds-placeholder").innerHTML = data;
@@ -121,7 +121,7 @@ function loadKingdomHeartsII() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+document.getElementById("loadHTML").addEventListener("click", function () {
   loadGodOfWar();
   loadTheLastOfUs();
   loadHades();

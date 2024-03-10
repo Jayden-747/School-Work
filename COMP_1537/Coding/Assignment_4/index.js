@@ -12,9 +12,9 @@ const port = 8000;
 // Imports the File System module
 const fs = require("fs");
 
-app.use("/public/css", express.static("./public/css"));
-app.use("/public/js", express.static("./public/js"));
-app.use("/public/img", express.static("./public/img"));
+app.use("/css", express.static("./public/css"));
+app.use("/js", express.static("./public/js"));
+app.use("/img", express.static("./public/img"));
 
 // Reads the HTML File
 app.get("/", function (req, res) {
