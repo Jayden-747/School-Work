@@ -4,20 +4,16 @@ function ajaxGET(url, callback) {
   const xhr = new XMLHttpRequest();
   parser = new DOMParser();
 
-  //console.log("xhr", xhr);
   xhr.onload = function () {
     value = this.responseText;
     if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
-      //console.log('responseText:' + xhr.responseText);
-
-      // callback function
       value = this.responseText;
       callback(this.responseText);
     } else {
       console.log(this.status);
     }
   };
-  xhr.open("GET", url); // localhost:8000/weekdays?format=html
+  xhr.open("GET", url);
   xhr.send();
 }
 
