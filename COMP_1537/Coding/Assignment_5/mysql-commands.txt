@@ -1,0 +1,23 @@
+Enter mysql:
+
+mysql -u root -p
+
+Databases:
+
+show databases;
+
+create database [db name];
+
+use [db name];
+
+drop database [db name];
+
+Tables:
+
+show tables;
+
+describe [table name];
+
+drop table [table name];
+
+raname table [old name] to [new name];

@@ -29,6 +29,12 @@ app.get("/article-lists", function (req, res) {
   res.send(doc2);
 });
 
+app.get("/article-lists2", function (req, res) {
+  const doc3 = fs.readFileSync("./app/html/data/article-lists2.json", "utf8");
+
+  res.send(doc3);
+});
+
 app.get("/gow-list", function (req, res) {
   const doc3 = fs.readFileSync("./app/html/data/gow-list.html", "utf8");
 
